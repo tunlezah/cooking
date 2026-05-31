@@ -1,0 +1,173 @@
+{
+  "functions": [
+    {
+      "id": "pressure-cook",
+      "name": "Pressure Cook / Manual",
+      "group": "Pressure",
+      "summary": "The catch-all custom pressure-cooking button. You set the time and pressure level yourself.",
+      "defaultTime": "30 min",
+      "pressure": "High (toggle to Low)",
+      "levels": "Custom time 0–240 min",
+      "release": "Cook's choice — follow the recipe",
+      "bestFor": "Any recipe that gives a specific time and pressure; the most-used button on the Duo."
+    },
+    {
+      "id": "soup-broth",
+      "name": "Soup/Broth",
+      "group": "Pressure",
+      "summary": "A gentle pressure boil for soups, stocks and bone broth that keeps the liquid clearer.",
+      "defaultTime": "Less 20 / Normal 30 / More 40 min",
+      "pressure": "High",
+      "levels": "Less / Normal / More",
+      "release": "Natural release (liquid-heavy, prevents sputtering)",
+      "bestFor": "Broths, brothy soups and stocks."
+    },
+    {
+      "id": "meat-stew",
+      "name": "Meat/Stew",
+      "group": "Pressure",
+      "summary": "Higher, longer pressure to tenderize meat and build hearty stews.",
+      "defaultTime": "Less 20 / Normal 35 / More 45 min",
+      "pressure": "High",
+      "levels": "Less / Normal / More",
+      "release": "Natural release so the meat stays tender",
+      "bestFor": "Roasts, stew meat, pot roast and large cuts."
+    },
+    {
+      "id": "bean-chili",
+      "name": "Bean/Chili",
+      "group": "Pressure",
+      "summary": "Tuned for dried or soaked beans, legumes and chili.",
+      "defaultTime": "Less 25 / Normal 30 / More 40 min",
+      "pressure": "High",
+      "levels": "Less / Normal / More",
+      "release": "Natural release (beans are foamy and starchy)",
+      "bestFor": "Beans, legumes and chili."
+    },
+    {
+      "id": "poultry",
+      "name": "Poultry",
+      "group": "Pressure",
+      "summary": "Preset times for chicken and other poultry.",
+      "defaultTime": "Less 5 / Normal 15 / More 30 min",
+      "pressure": "High",
+      "levels": "Less / Normal / More",
+      "release": "Quick for breasts; natural for whole birds",
+      "bestFor": "Chicken breasts and thighs, whole chicken, turkey pieces."
+    },
+    {
+      "id": "rice",
+      "name": "Rice",
+      "group": "Pressure",
+      "summary": "The only fully automatic program. It senses the water and rice and sets its own time.",
+      "defaultTime": "Automatic",
+      "pressure": "Low",
+      "levels": "Automatic — no time setting",
+      "release": "Natural release",
+      "bestFor": "Regular white rice. Use Multigrain or Manual for brown or wild rice."
+    },
+    {
+      "id": "multigrain",
+      "name": "Multigrain",
+      "group": "Pressure",
+      "summary": "For tougher whole grains, including an optional warm-water soak on the More setting.",
+      "defaultTime": "Less 20 / Normal 40 / More 45 min soak + 60 min cook",
+      "pressure": "High",
+      "levels": "Less / Normal / More",
+      "release": "Natural release",
+      "bestFor": "Brown rice, wild rice, barley, mixed and whole grains."
+    },
+    {
+      "id": "porridge",
+      "name": "Porridge",
+      "group": "Pressure",
+      "summary": "Creamy grain porridges such as oatmeal and congee.",
+      "defaultTime": "Less 15 / Normal 20 / More 30 min",
+      "pressure": "High",
+      "levels": "Less / Normal / More",
+      "release": "Natural release strongly recommended (starchy and foamy)",
+      "bestFor": "Oatmeal, congee and creamy grain porridges."
+    },
+    {
+      "id": "steam",
+      "name": "Steam",
+      "group": "Pressure",
+      "summary": "Pressure-steaming on a trivet or basket. Food sits above the water, not in it.",
+      "defaultTime": "Less 3 / Normal 10 / More 15 min",
+      "pressure": "High",
+      "levels": "Less / Normal / More",
+      "release": "Quick release for vegetables to avoid overcooking",
+      "bestFor": "Vegetables, seafood, eggs, dumplings and reheating."
+    },
+    {
+      "id": "saute",
+      "name": "Sauté",
+      "group": "Stovetop",
+      "summary": "Browning, searing, simmering and sautéing with the lid off. No pressure.",
+      "defaultTime": "Runs 30 min then stops",
+      "pressure": "None",
+      "levels": "Less ~285°F simmer / Normal ~335°F sauté / More ~380°F sear",
+      "release": "Not applicable",
+      "bestFor": "Pre-browning meat and onions, then simmering or thickening sauces after pressure cooking."
+    },
+    {
+      "id": "slow-cook",
+      "name": "Slow Cook",
+      "group": "Stovetop",
+      "summary": "Works like a traditional slow cooker. Use a vented or glass lid. No pressure.",
+      "defaultTime": "Default 4 h (up to 20 h)",
+      "pressure": "None",
+      "levels": "Less ~185°F / Normal ~195°F (≈Low) / More ~205°F (≈High)",
+      "release": "Not applicable — set the valve to Venting",
+      "bestFor": "Any recipe written for a traditional slow cooker."
+    },
+    {
+      "id": "yogurt",
+      "name": "Yogurt",
+      "group": "Stovetop",
+      "summary": "Pasteurizes milk (Boil) and incubates it into yogurt. No pressure.",
+      "defaultTime": "Incubate default 8 h; Boil heats to ~180°F",
+      "pressure": "None",
+      "levels": "Less ~90°F ferment / Normal ~100–110°F incubate / More 'boil' ~180°F",
+      "release": "Not applicable",
+      "bestFor": "Homemade yogurt and some low-temperature ferments."
+    },
+    {
+      "id": "keep-warm",
+      "name": "Keep Warm",
+      "group": "Stovetop",
+      "summary": "Holds finished food at serving temperature. Engages automatically after most cooks.",
+      "defaultTime": "Up to 10 h",
+      "pressure": "None",
+      "levels": "~145–170°F",
+      "release": "Not applicable",
+      "bestFor": "Holding food warm. It does not cook, so don't over-hold delicate dishes."
+    }
+  ],
+  "concepts": [
+    {
+      "title": "Natural Release (NPR)",
+      "body": "Do nothing when the cook ends — pressure drops on its own over about 10–30 minutes as the pot cools, and food keeps gently cooking. Use it for large meat cuts, soups, broths, beans, grains and porridge, and anything foamy or very full."
+    },
+    {
+      "title": "Quick Release (QR)",
+      "body": "Turn the steam valve to Venting and let the steam jet out; pressure drops in 1–2 minutes. Use it for vegetables, seafood, pasta and eggs that would overcook if left to sit. Keep hands and face clear and use a towel."
+    },
+    {
+      "title": "Hybrid release",
+      "body": "Many recipes say 'Natural 10 min then Quick' — let it release naturally for a set time, then quick-release the rest. It balances tenderness with not overcooking."
+    },
+    {
+      "title": "Minimum liquid",
+      "body": "You need at least 1 cup (about 1.5 cups is safer on the 6-quart) of thin, water-based liquid to build steam. Thick sauces or dairy alone won't reach pressure and can trigger a Burn warning."
+    },
+    {
+      "title": "Max fill lines",
+      "body": "Never fill above the 2/3 PC Max line. For foods that expand or foam — rice, beans, pasta, oats and grains — stay below the 1/2 line."
+    },
+    {
+      "title": "Come-to-pressure time",
+      "body": "The timer doesn't start right away. The pot first heats until it reaches pressure (about 5–15 minutes, longer when cold or full), and only then does the cook countdown begin. Total time = preheat + cook + release."
+    }
+  ]
+}

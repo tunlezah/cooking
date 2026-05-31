@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base theme: a Material3 theme with no action bar. Compose draws everything;
+         this keeps the splash/launch background warm and edge-to-edge friendly. -->
+    <style name="Theme.PotPilot" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/brand_surface</item>
+    </style>
+</resources>

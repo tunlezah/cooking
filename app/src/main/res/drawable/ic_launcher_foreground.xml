@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simple pressure-cooker pot silhouette -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M36,40 h36 a4,4 0 0 1 4,4 v2 h6 a3,3 0 0 1 0,6 h-6 v14 a14,14 0 0 1 -14,14 h-16 a14,14 0 0 1 -14,-14 v-14 h-6 a3,3 0 0 1 0,-6 h6 v-2 a4,4 0 0 1 4,-4 z" />
+    <!-- Lid knob -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M50,30 h8 v8 h-8 z" />
+    <!-- Steam -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M47,18 q3,4 0,8 q-3,4 0,8 h3 q-3,-4 0,-8 q3,-4 0,-8 z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M58,20 q3,3 0,6 q-3,3 0,6 h3 q-3,-3 0,-6 q3,-3 0,-6 z" />
+</vector>

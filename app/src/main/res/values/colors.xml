@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_terracotta">#FFB1481E</color>
+    <color name="brand_surface">#FFFFF8F6</color>
+    <color name="brand_surface_dark">#FF1A110E</color>
+    <color name="ic_launcher_background">#FFB1481E</color>
+</resources>
