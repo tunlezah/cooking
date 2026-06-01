@@ -35,6 +35,7 @@ import com.potpilot.cookbook.data.Recipe
 import com.potpilot.cookbook.ui.components.InfoChip
 import com.potpilot.cookbook.ui.components.NumberedList
 import com.potpilot.cookbook.ui.components.SectionHeader
+import com.potpilot.cookbook.ui.components.StepsList
 import com.potpilot.cookbook.ui.components.categoryEmoji
 import com.potpilot.cookbook.ui.util.KeepScreenOn
 
@@ -106,7 +107,7 @@ fun RecipeDetail(
             NumberedList(items = recipe.ingredients, numbered = false)
 
             SectionHeader("Method")
-            NumberedList(items = recipe.steps, numbered = true)
+            StepsList(steps = recipe.steps)
 
             if (recipe.tip.isNotBlank()) {
                 Surface(
